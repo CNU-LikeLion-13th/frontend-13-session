@@ -8,12 +8,10 @@ switch(animal) {
     case 'tiger':
         console.log('호랑이');
         break;
-
-case 'cat':
+    case 'cat':
         console.log('고양이');
         break;
-
-case 'lion':
+    case 'lion':
         console.log('사자');
         break;
 }
