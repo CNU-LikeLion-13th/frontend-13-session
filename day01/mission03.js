@@ -1,18 +1,20 @@
 
 //03
-let animal ='고양이';
+let animal ='cat';
 
 switch(animal){
-    case '고양이':
+    case 'cat':
         confirm.log("고양이")
         break;  
-    case '강아지':
+    case 'dog':
         console.log("강아지")
         break;  
-    case '호랑이':
+    case 'tiger':
         console.log("호랑이")
         break;  
-    case '사자':
+    case 'lion':
         console.log("사자")
         break;  
+    default:
+        console.log("잘못된 입력")
 }
